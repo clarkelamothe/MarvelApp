@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import com.clarkelamothe.marvelapp.R
 
 class CharactersFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -16,5 +15,4 @@ class CharactersFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_characters, container, false)
     }
-
 }
