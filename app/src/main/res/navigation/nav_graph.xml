@@ -42,7 +42,7 @@
         tools:layout="@layout/fragment_events" />
     <fragment
         android:id="@+id/characterDetailsFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.characterDetails.CharacterDetailsFragment"
-        android:label="fragment_character_details"
-        tools:layout="@layout/fragment_character_details" />
+        android:name="com.clarkelamothe.marvelapp.ui.characterDetail.CharacterDetailFragment"
+        android:label="fragment_character_detail"
+        tools:layout="@layout/fragment_character_detail" />
 </navigation>

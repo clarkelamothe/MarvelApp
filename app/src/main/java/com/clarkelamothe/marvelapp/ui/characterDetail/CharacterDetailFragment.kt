@@ -1,4 +1,4 @@
-package com.clarkelamothe.marvelapp.ui.characterDetails
+package com.clarkelamothe.marvelapp.ui.characterDetail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.clarkelamothe.marvelapp.R
 
-class CharacterDetailsFragment : Fragment() {
+class CharacterDetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_character_details, container, false)
+        return inflater.inflate(R.layout.fragment_character_detail, container, false)
     }
 }
