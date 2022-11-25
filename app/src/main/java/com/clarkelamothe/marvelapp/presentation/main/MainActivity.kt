@@ -1,4 +1,4 @@
-package com.clarkelamothe.marvelapp.ui.main
+package com.clarkelamothe.marvelapp.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

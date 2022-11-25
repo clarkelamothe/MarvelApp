@@ -1,4 +1,4 @@
-package com.clarkelamothe.marvelapp.ui.characterDetail
+package com.clarkelamothe.marvelapp.presentation.characterDetail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
