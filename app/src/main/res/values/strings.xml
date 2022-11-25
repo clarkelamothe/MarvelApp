@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">MarvelApp</string>
     <string name="email_hint">email</string>
+    <string name="username_hint">username</string>
     <string name="password_hint">password</string>
-    <string name="login_text">login</string>
+    <string name="login_text">Login</string>
     <string name="create_an_account_text">Create an account.</string>
-    <string name="signup_text">signup</string>
+    <string name="have_an_account_text">Have an account?</string>
+    <string name="signup_text">Signup</string>
 </resources>
