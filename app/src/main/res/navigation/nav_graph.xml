@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.login.LoginFragment"
+        android:name="com.clarkelamothe.marvelapp.presentation.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.signup.SignupFragment"
+        android:name="com.clarkelamothe.marvelapp.presentation.signup.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/charactersFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.characters.CharactersFragment"
+        android:name="com.clarkelamothe.marvelapp.presentation.characters.CharactersFragment"
         android:label="fragment_characters"
         tools:layout="@layout/fragment_characters" >
         <action
@@ -37,12 +37,12 @@
     </fragment>
     <fragment
         android:id="@+id/eventsFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.events.EventsFragment"
+        android:name="com.clarkelamothe.marvelapp.presentation.events.EventsFragment"
         android:label="fragment_events"
         tools:layout="@layout/fragment_events" />
     <fragment
         android:id="@+id/characterDetailsFragment"
-        android:name="com.clarkelamothe.marvelapp.ui.characterDetail.CharacterDetailFragment"
+        android:name="com.clarkelamothe.marvelapp.presentation.characterDetail.CharacterDetailFragment"
         android:label="fragment_character_detail"
         tools:layout="@layout/fragment_character_detail" />
 </navigation>

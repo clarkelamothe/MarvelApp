@@ -1,4 +1,4 @@
-package com.clarkelamothe.marvelapp.ui.events
+package com.clarkelamothe.marvelapp.presentation.events
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
